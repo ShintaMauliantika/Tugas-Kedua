@@ -1,0 +1,13 @@
+body{/*didalam body ukuran hurufnya 14 pixel dan warna textnya hitam*/
+    font-size: 14px;
+    color: black;
+}
+p{/*bentuk huruf menggunakan font family yaitu menggabungkan beberapa bentuk huruf*/
+    font-family: calibri, Arial, Helvetica, sans-serif;
+}
+h3,h4{/*didalam heading 3 dan 4 terdapat dekorasi tulisan adalah garis bawah, ukuran hurufnya 23 pixel dan warnanya
+    hijau*/
+    text-decoration: underline;
+    font-size: 23px;
+    color: red;
+}

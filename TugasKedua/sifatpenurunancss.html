@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Contoh Inheritance di dalam CSS</title>
+        <style type="text/css">
+            div.satu{
+                border: 1px solid black;
+                color: blue;
+            }
+
+            div.dua{
+                border: 1px solid black;
+            }
+
+            p.dua{
+                border: inherit;
+            }
+        </style>
+    </head>
+
+    <body>
+        <div class="satu">
+            <p class="satu">
+                Kalimat ini tanpa <em class="satu"> nilai property inherit</em> CSS<!--didalam paragraf ini tidak menggunakan pewarisan
+                border sehingga hanya ada satu border yang membungkus kalimat ini-->
+            </p>
+        </div>
+        <br/>
+        <div class="dua">
+            <p class="dua">
+                Kalimat ini menggunakan <em class="dua"> nilai property inherit</em> CSS<!--di dalam paragraf ini menggunakan
+                pewarisan border, jadi di dalam border terdapat border lagi-->
+            </p>
+        </div>
+    </body>
+</html>

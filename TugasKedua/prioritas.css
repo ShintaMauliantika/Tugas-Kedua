@@ -1,0 +1,4 @@
+h2{
+    color: blue;/* warna pada heading 2 adalah biru namun setelah di run menjadi warna berbeda dikarenakan memprioritaskan
+    kode yang melekat pada tag di html. beserta urutannnya yaitu, langsung melekat pada tag -> tag<style> -> baru pada link */
+}

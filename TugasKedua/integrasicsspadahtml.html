@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Integrasi CSS pada HTML</title>
+        <!--dengan menginput kode css didalam head-->
+        <style type="text/css">
+        @import url(belajar.css); /*mengimport kode css dari file yang berbeda , bisa juga menggunakan tag link tanpa style di
+        dalam head*/
+            h3{
+                background-color: black;/*background colornya hitam*/
+                color: white;/*warna textnya putih*/
+            }
+            
+        </style>
+    </head>
+
+    <body>
+        <h1>Metode Inline Style</h1>
+        <!--di dalam heading ini terdapat atribut style yang dapat menginput kode CSS langsung ke tag HTML, warna background
+         merah dan warna teksnya putih-->
+        <h2 style="background-color: red; color: white;">Teks ini akan berwarna putih dan backgroundnya berwarna merah</h2>
+        <h1>Metode internal style sheet CSS</h1>
+        <h3>Teks ini akan berwarna putih dan backgroundnya berwarna hitam</h3>
+        <h1>Metode Eksternal Style sheet</h1> <!--dengan membuat file css berbeda untuk memanggil warna background dan text-->
+        <h4>Teks ini akan berwarna putih dan backgroundnya berwarna merah</h4>
+    </body>
+</html>

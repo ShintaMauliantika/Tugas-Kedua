@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Contoh kasus spesifik</title>
+        <style type="text/css">
+            p{ /*terdapat 1 tag selector*/
+                color: red;
+            }
+
+            div p{/*terdapat 2 tag selector*/
+                color: green !important;
+            }
+
+            #aaa{/*terdapat 1 id selector*/
+                color: orange;
+            }
+
+            body div p{/*terapat 3 tag selector*/
+                color: yellow;
+            }
+
+            div p.kalimat{/*terdapat 1 class selector dan 2 tag selector*/
+                color: silver;
+            }
+        </style>
+    </head>
+
+    <body>
+        <div>
+            <p id="aaa">Sedang Belajar CSS</p><!--pada saat di run yang menang adalah warna orange, dikarenakan memprioritaskan
+            nilai yang lebih besar--><!--namun pada saat meletakkan !important pada belakang kode css, kode tersebut akan menjadi prioritas-->
+        </div>
+    </body>
+</html>

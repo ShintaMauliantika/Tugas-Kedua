@@ -1,0 +1,9 @@
+div{/*jika ingin menggunakan property CSS3 yang masih baru harus dibuat menggunakan vendorprefix*/ /*bertujuan
+    untuk penambahan beberapa karakter khusus di awal penulisan property, terutama CSS3 yg terbaru*/
+    -webkit-column-count: 3;/*untuk chrome dan versi terbaru dari opera*/
+    -moz-column-count: 3;/*untuk firefox*/
+    -o-column-count: 3;/*untuk opera yang versi lama*/
+    -ms-column-count: 3;/*untuk internet explorer*/
+    column-count: 3; /*digunakan untuk membuat kolom koran namun belum resmi, jadi belum didukung penuh oleh web browser
+    sehingga perlu adanya penambahan vendorprefix*/
+}

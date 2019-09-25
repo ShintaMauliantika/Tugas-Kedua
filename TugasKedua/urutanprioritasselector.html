@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Contoh Kasus Cascading CSS</title>
+        <link rel="stylesheet" href="prioritas.css" type="text/css">
+        <style type="text/css">
+            h2{
+                color: red
+            }
+        </style>
+    </head>
+
+    <body>
+        <h2>Akan Berwarna apa saya?</h2><!--setelah di run berwarna merah, karena memprioritaskan kode yang melekat pada
+        tag di dalam html-->
+        <h2 style="color: green"> <!--memprioritaskan warna hijau karena kode melekat pada
+            tag yang ada di dalam heading ini-->
+            Akan berwarna apa saya? 2 
+        </h2>
+    </body>
+</html>

@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Test Tag Front HTML</title><!--judul website yang berada dijendela browser-->
+        <style type="text/css">
+        .warna{
+            color: red;
+        }
+        </style>
+    </head>
+
+    <body>
+        <!--membuat sebuah paragraf didalamnya terdapat text yang berwana merah dengan tag <font color="" kita bisa mengubah 
+        warna teks menjadi warna selain hitam-->
+        <p>
+            CSS merupakan bahasanya <font color="red"> desainer web</font>.
+            Namun sebenarnya, apa itu CSS?
+            <br/>
+            <font color="red">CSS</font> adalah sekumpulan kode yang digunakan untuk mendefinisikan desain dari bahasa markup.
+            <font color="red">Salah satunya adalah HTML</font>. <br/> Dengan CSS kita bisa mengubah design sendiri dari 
+            <font color="red">text, warna, gambar dan latar belakang</font> dari (hampir) semua kode tag HTML.
+        </p>
+
+        <!--paragraf dibawah ini sama dengan paragraf diatas namun yang membedakan adalah dengan diberinya css, dalam 
+        pemberian warna menggunakan css, dengan memanggil data css yang berada di bagian head. kalau class memanggil css (.)
+    kalau id memanggil css (#)-->
+        <p>
+                CSS merupakan bahasanya <span class="warna"> desainer web</span>.
+                Namun sebenarnya, apa itu CSS?
+                <br/>
+                <span class="warna">CSS</span> adalah sekumpulan kode yang digunakan untuk mendefinisikan desain dari bahasa markup.
+                <span class="warna">Salah satunya adalah HTML</span>. <br/> Dengan CSS kita bisa mengubah design sendiri dari 
+                <span class="warna">text, warna, gambar dan latar belakang</span> dari (hampir) semua kode tag HTML.
+            </p>
+    </body>
+</html>

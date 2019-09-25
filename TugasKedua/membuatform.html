@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Belajar membuat form</title>
+    </head>
+
+    <body>
+        <!--membuat sebuah form yang biasanya berisi form login dll-->
+        <form action="formulir.html" method="GET"><!--action menentukan lokasi dari dokumen yang akan memproses data form
+        methode get biasanya digunakan untuk query pencarian-->
+            Nama: <input type="text" name="Nama" value="nama kamu"/><!--textbox merupakan inputan biasa yang menerima
+            input berupa text seperti nama-->
+            <br/><!--jarak antara tulisan atas dan bawah-->
+
+            password: <input type="password" name="password"/><!--dalam tampilan sama dengan textbox namun di password ini
+            tidak akan terliaht atau nantinya akan berbentuk bintang(*) atau bulatan-->
+            <br/>
+
+            <!--inputan radio user hanya bisa memilih
+            satu diantara pilihan lain-->
+            Jenis Kelamin:
+            <input type="radio" name="jenis_kelamin" value="laki laki" /> Laki-laki
+            <input type="radio" name="jenis_kelamin" value="perempuan" checked/> Perempuan
+            <br/>
+            
+            <!--inoutan checkbox user bisa memilih lebih dari satu 
+            pilihan yang ada-->
+            Hobi: <input type="checkbox" name="hobi_baca" /> Membaca Buku
+                  <input type="checkbox" name="hobi_memancing"/>Memancing
+                  <input type="checkbox" name="hobi_menulis"/> Menulis
+            <br/>
+
+            <!--inputan select yang sudah tersedia nilainy, user hanya bisa memilih dari beberapa pilihan yang
+            sudah tersedia-->
+            Asal Kota:
+            <select name="asal_kota">
+                <option value="Kota Situbondo" selected>Situbondo</option>
+                <option value="Kota Bondowoso">Bondowoso</option>
+                <option value="Kota Jember">Jember</option>
+            </select>
+            <br/>
+
+            <!--textarea sama dengan input text, namun di textarea dapat berisi lebih banyak baris, panjangnya 5 dan 
+            banyak baris 20-->
+            Komentar Anda:
+            <textarea name="komentar" rows="5" cols="20">Silahkan Ketik isi Hati Anda</textarea>
+            <br/>
+
+            <!--submit merupakan tombol untuk memproses form yang telah dibuat, diletakkan diakhir form, value berisi 
+            tulisan yang akan menjadi petunjuk untuk menekan tombol proses-->
+            <input type="submit" value="Mulai Proses!">
+
+        </form>
+    </body>
+</html>
